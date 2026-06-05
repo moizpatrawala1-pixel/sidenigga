@@ -294,7 +294,7 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
-    object-position: center top;
+    object-position: center center;
     display: block;
     filter: grayscale(15%) contrast(1.05);
     transition: filter .3s, transform .3s;
@@ -697,29 +697,32 @@
   <div class="meet-grid">
 
     <div class="meet-card">
-      <img src="1.JPG" alt="The OG" class="meet-img">
+      <!-- 1.JPG — both parents, portrait, crop to show faces at top -->
+      <img src="1.JPG" alt="The OGs" class="meet-img" style="object-position: center 15%;">
       <div class="meet-info">
-        <div class="meet-role">// Founder & Senior Provider</div>
-        <div class="meet-name">The OG</div>
-        <div class="meet-bio">Decades of experience. Bali-certified. The most reliable option for stability, wisdom, and dadcore energy.</div>
+        <div class="meet-role">// Founders & Senior Providers</div>
+        <div class="meet-name">The OGs</div>
+        <div class="meet-bio">The originals. The blueprint. Everything he knows about being a side nigga, he learned at home.</div>
       </div>
     </div>
 
     <div class="meet-card">
-      <img src="3.JPG" alt="Tommy Boy" class="meet-img">
+      <!-- 3.JPG — passed out face down on the floor -->
+      <img src="3.JPG" alt="The Closer" class="meet-img" style="object-position: center center;">
+      <div class="meet-info">
+        <div class="meet-role">// Relaxation Specialist</div>
+        <div class="meet-name">The Recharger</div>
+        <div class="meet-bio">Fully committed to rest. So dedicated to your comfort that he demonstrates it himself. Available after naps.</div>
+      </div>
+    </div>
+
+    <div class="meet-card">
+      <!-- 4.JPG — train station Tommy Hilfiger -->
+      <img src="4.JPG" alt="Tommy Boy" class="meet-img" style="object-position: center 15%;">
       <div class="meet-info">
         <div class="meet-role">// Field Operative</div>
         <div class="meet-name">Tommy Boy</div>
         <div class="meet-bio">Catches trains. Broods dramatically. Wears Tommy Hilfiger unironically. Will listen to your problems on any platform.</div>
-      </div>
-    </div>
-
-    <div class="meet-card">
-      <img src="4.JPG" alt="The Closer" class="meet-img" style="object-position: center center;">
-      <div class="meet-info">
-        <div class="meet-role">// Night Shift Specialist</div>
-        <div class="meet-name">The Closer</div>
-        <div class="meet-bio">Operates exclusively after sundown. That stare means he's listening. Or plotting. Either way, he's present.</div>
       </div>
     </div>
 
